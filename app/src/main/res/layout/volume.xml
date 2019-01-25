@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/set_bg"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="31dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="@string/volume"/>
+    <SeekBar
+        android:id="@+id/mediaSeek"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:minHeight="12dp"
+        android:maxHeight="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="29dp"
+        android:progressDrawable="@drawable/seek_bg"
+        android:thumb="@null"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_gravity="end"
+        android:layout_margin="33dp"
+        android:text="@string/btn_confirm"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_bg"/>
+</LinearLayout>

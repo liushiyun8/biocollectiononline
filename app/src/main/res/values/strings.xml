@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Biosignature Collection</string>
+    <string name="welcome">欢迎</string>
+    <string name="server_address">IP:</string>
+    <string name="personal_information">个人信息</string>
+    <string name="shoot_photo">Shoot</string>
+    <string name="countdown_photo">CountDown</string>
+    <string name="top_bar_date_format">MM-yyyy-dd</string>
+    <string name="Back">返回</string>
+    <string name="btn_confirm">确认</string>
+    <string name="fingerprint_quality_tip"> 指纹质量：</string>
+    <string name="reference_title">Operational Reference</string>
+    <string name="waiting_tip">Waiting for staff review</string>
+    <string name="photograph">Photograph</string>
+    <string name="left">左手</string>
+    <string name="right">右手</string>
+    <string name="move_close_face">请靠近屏幕</string>
+    <string name="move_away_face">请远离屏幕</string>
+    <string name="move_left_face"> 请向左移动你的脸</string>
+    <string name="move_right_face"> 请向右移动你的脸</string>
+    <string name="move_down_face"> 请向下移动身体</string>
+    <string name="move_up_face"> 请向上移动身体</string>
+    <string name="select_photo_tip">You look good！\n Do you use this one?</string>
+    <string name="collection_completed">采集完成</string>
+    <string name="signature_successful">签名成功</string>
+    <string name="signature_fail">签名失败</string>
+    <string name="signature_begin">开始签名</string>
+    <string name="update">检测到可用的新版本，你想要升级吗？</string>
+    <string name="cancle">取消</string>
+    <string name="fingerprint_title">指纹采集</string>
+    <string name="signature_title">签名采集</string>
+    <string name="connection_close">连接断开</string>
+    <string name="connection_open">和PC端已连接</string>
+    <string name="fingerprint_left_tip">采集 完成!</string>
+    <string name="fingerprint_right_tip">采集 完成!</string>
+    <string name="photo_tip">试着保持身体在合适的位置</string>
+    <string name="welcome_tip">等待连接</string>
+    <string name="net_waiting">等待连接</string>
+    <string name="net_lost">断开与计算机的连接</string>
+    <string name="net_connect">连接计算机。准备进行生物信息采集</string>
+    <string name="set">设置</string>
+    <string name="light">灯光</string>
+    <string name="confirm">确认</string>
+    <string name="signature_tip">请在下面的签名板上签名，签名笔在设备的右上角</string>
+    <string name="languagetitle">语言设置</string>
+    <string name="timeout">服务器连接超时</string>
+    <string name="file_send_result">升级结果</string>
+    <string name="file_send_success">发送成功</string>
+    <string name="updatePmSoft">更新电源板程序</string>
+    <string name="updateApp">应用更新\n</string>
+    <string-array name="set_array">
+        <item>以太网</item>
+        <item>灯光</item>
+        <item>音量</item>
+        <item>语言</item>
+        <item>图标</item>
+        <item>WIFI</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+    <string name="signature_update">签名板更新</string>
+    <string name="takephoto">拍照</string>
+    <string name="process">完成</string>
+    <string name="volume">Volume</string>
+    <string name="log">图标</string>
+    <string name="confirm_title">确认</string>
+    <string name="put_finger">请放你的手指</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

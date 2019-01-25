@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#022440"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/px_1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_460"
+        android:background="@drawable/scale_back">
+
+        <RelativeLayout
+            android:id="@+id/lay_fingerprint_left"
+            android:layout_width="@dimen/px_220"
+            android:layout_height="@dimen/px_240"
+            android:padding="4dp"
+            android:background="@color/redhot"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/px_50"
+            android:layout_marginStart="@dimen/px_50"
+            android:layout_marginTop="@dimen/px_60"
+            >
+            <ImageView
+                android:id="@+id/imageview_fingerprint_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFF" />
+            <ImageView
+                android:id="@+id/imageview_fingerprint_left_ok"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/right"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/finger_left_tip"
+            android:layout_width="@dimen/px_220"
+            android:layout_height="@dimen/px_49"
+            android:layout_alignLeft="@id/lay_fingerprint_left"
+            android:layout_alignStart="@id/lay_fingerprint_left"
+            android:layout_below="@id/lay_fingerprint_left"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="@color/redhot"
+            android:padding="@dimen/px_3">
+
+            <TextView
+                android:id="@+id/tv_fingerprint_left_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/left"
+                android:textColor="#666666"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_fingerprint_right"
+            android:layout_width="@dimen/px_220"
+            android:layout_height="@dimen/px_240"
+            android:padding="4dp"
+            android:background="@color/redhot"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/lay_fingerprint_left"
+            android:layout_marginEnd="@dimen/px_50"
+            android:layout_marginRight="@dimen/px_50">
+            <ImageView
+                android:id="@+id/imageview_fingerprint_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFF" />
+            <ImageView
+                android:id="@+id/imageview_fingerprint_right_ok"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/right"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/finger_right_tip"
+            android:layout_width="@dimen/px_220"
+            android:layout_height="@dimen/px_49"
+            android:layout_alignLeft="@id/lay_fingerprint_right"
+            android:layout_alignStart="@id/lay_fingerprint_right"
+            android:layout_below="@id/lay_fingerprint_right"
+            android:layout_marginTop="@dimen/px_20"
+            android:background="@color/redhot"
+            android:padding="@dimen/px_3">
+
+            <TextView
+                android:id="@+id/tv_fingerprint_right_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/right"
+                android:textColor="#666666"
+                android:textSize="24sp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/finger_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="33sp"
+            android:layout_marginTop="23dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/finger_left_tip"
+            android:text="@string/put_finger"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_gray"
+        android:layout_marginTop="@dimen/px_1"
+        >
+        <TextView
+            android:id="@+id/tipTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="9dp"
+            android:textSize="80sp"
+            android:textColor="@color/greendark"
+            android:text="@string/process"/>
+        <!--android:background="@drawable/bg_welcome_tv"-->
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/finger_print_anim" />
+    </RelativeLayout>
+
+</LinearLayout>

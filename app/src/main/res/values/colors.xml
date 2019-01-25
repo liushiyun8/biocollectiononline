@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="white_gray">#BEBEBE</color>
+    <color name="division_color">#1e1c1c</color>
+    <color name="red_tip_color">#e73646</color>
+    <color name="actionbar_title_color">#3a3a3a</color>
+    <color name="server_address">#dcdcdc</color>
+    <color name="black">#000</color>
+    <color name="actionbar_bg">#ebeaea</color>
+    <color name="set_title_bg">#595959</color>
+    <color name="set_bg">#282828</color>
+    <color name="green">#007500</color>
+    <color name="greendark">#009100</color>
+    <color name="red">#ae0000</color>
+    <color name="redhot">#dd0000</color>
+    <color name="blue">#177be5</color>
+
+</resources>

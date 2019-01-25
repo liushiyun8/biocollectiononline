@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Biosignature Collection</string>
+    <string name="welcome">Welcome</string>
+    <string name="server_address">IP:</string>
+    <string name="personal_information">Personal information</string>
+    <string name="shoot_photo">Shoot</string>
+    <string name="countdown_photo">CountDown</string>
+    <string name="top_bar_date_format">MM-yyyy-dd</string>
+    <string name="Back">Back</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="fingerprint_quality_tip"> Fingerprint quality：</string>
+    <string name="reference_title">Operational Reference</string>
+    <string name="waiting_tip">Waiting for staff review</string>
+    <string name="photograph">Photograph</string>
+    <string name="left">LEFT HAND</string>
+    <string name="right">RIGHT HAND</string>
+    <string name="move_close_face">Please close your face to the screen</string>
+    <string name="move_away_face">Please move your face  away</string>
+    <string name="move_left_face"> Please move your face to the left</string>
+    <string name="move_right_face"> Please move your face to the right</string>
+    <string name="move_down_face"> Please move your face to the down</string>
+    <string name="move_up_face"> Please move your face to the up</string>
+    <string name="select_photo_tip">You look good！\n Do you use this one?</string>
+    <string name="collection_completed">Collection Completed</string>
+    <string name="signature_successful">Signature collection is successful</string>
+    <string name="signature_fail">Signature collection failed</string>
+    <string name="signature_begin">Start signature collection</string>
+    <string name="update">A new version of application is available now, do you want to upgrade?</string>
+    <string name="cancle">Cancel</string>
+    <string name="fingerprint_title">Fingerprint</string>
+    <string name="signature_title">Signature</string>
+    <string name="connection_close">Connection Close</string>
+    <string name="connection_open">Open Connection With PC</string>
+    <string name="fingerprint_left_tip">Collection OK!</string>
+    <string name="fingerprint_right_tip">Collection OK!</string>
+    <string name="photo_tip">Try to keep you face within the shape</string>
+    <string name="welcome_tip">Waiting for PC connecting</string>
+    <string name="net_waiting">Waiting for PC connecting</string>
+    <string name="net_lost">Connection lost</string>
+    <string name="net_connect">Network connected,is waiting for operation action</string>
+    <string name="set">Settings</string>
+    <string name="light">Light</string>
+    <string name="confirm">Confirm</string>
+    <string name="signature_tip">Please sign your name on the signature board.The pen is on the right Angle of equipment</string>
+    <string name="languagetitle">Language setting</string>
+    <string name="timeout">Server connection timeout</string>
+    <string name="file_send_result">Update result</string>
+    <string name="file_send_success">Send success</string>
+    <string name="updatePmSoft">Update power board program</string>
+    <string name="updateApp">App update</string>
+    <string name="signature_update">Update signature board</string>
+    <string name="takephoto">Take photo</string>
+    <string name="process">Complete</string>
+    <string name="volume">Volume</string>
+    <string name="log">Logo</string>
+    <string-array name="set_array">
+        <item>Ethernet</item>
+        <item>Light</item>
+        <item>Volume</item>
+        <item>Languages</item>
+        <item>Logo</item>
+        <item>WIFI</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+    <string name="confirm_title">Confirm</string>
+    <string name="put_finger">Please put your fingers</string>
+</resources>

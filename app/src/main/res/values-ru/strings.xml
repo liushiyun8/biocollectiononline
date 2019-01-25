@@ -1,0 +1,74 @@
+<resources>
+	<string name="app_name">Сбор биометрической информации</string>
+	<string name="welcome">Добро пожаловать!</string>
+    <string name="server_address">IP:</string>
+    <string name="personal_information">Персональная информация</string>
+	<string name="shoot_photo">Фотосъемка</string>
+    <string name="countdown_photo">Обратный отсчет</string>
+    <string name="top_bar_date_format">MM-yyyy-dd</string>
+    <string name="Back">Возврат</string>
+    <string name="btn_confirm">Подтверждение</string>
+    <!--<string name="userinfo_comfire_tip">Пожалуйста, подтвердите фото</string>-->
+    <string name="fingerprint_quality_tip"> качество отпечатков пальцев：</string>
+    <string name="reference_title">Operational Reference</string>
+    <string name="select_photo_tip">You look good！\n Do you use this one?</string>
+    <string name="waiting_tip">Ожидает проверки</string>
+    <string name="photograph">Фотография</string>
+    <string name="left">Левая рука</string>
+    <string name="right">Правая рука</string>
+    <string name="move_close_face">Ближе к экрану</string>
+    <string name="move_away_face">Дальше от экрана</string>
+    <string name="move_left_face">Подвиньтесь влево</string>
+    <string name="move_right_face">Подвиньтесь вправо</string>
+    <string name="move_down_face">Опуститесь ниже</string>
+    <string name="move_up_face">Поднимитесь повыше</string>
+   <!--<string name="move_aim_face">Пожалуйста смотрите прямо в камеру</string>-->
+    <string name="collection_completed">Процедура сбора завершена</string>
+    <string name="signature_successful">Подтверждение подписи успешно</string>
+    <string name="signature_fail">Ошибка в подтверждении подписи</string>
+    <string name="signature_begin">Начать подпись</string>
+    <string name="update">Обнаружено обнолвение для прложения. Подтвердить запуск?</string>
+    <string name="cancle">Отмена</string>
+    <string name="fingerprint_title">Сбор отпечатков пальцев</string>
+    <string name="signature_title">Сбор подписи</string>
+    <string name="connection_close">Соединение разорвано</string>
+    <string name="connection_open">Соединение с компьютером установлено</string>
+    <string name="fingerprint_left_tip">Сбор успешен!</string>
+    <string name="fingerprint_right_tip">Сбор успешен!</string>
+    <string name="confirm_title">Подтвердите</string>
+    <string name="photo_tip">Постарайтесь не двигаться</string>
+    <string name="welcome_tip">Ожидание соединения</string>
+    <string name="net_waiting">Ожидание соединения</string>
+    <string name="net_lost">Соединение с компьютером разорвано</string>
+    <string name="net_connect">Соединение установлено. Готово к сбору биометрической информации</string>
+    <string name="set">Настройки</string>
+    <string name="light">Освещение</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="signature_tip">Поставьте подпись на экране. Ручка находится в верхнем правом углу устройства </string>
+    <string name="languagetitle">Настройка языка</string>
+    <string name="timeout">Таймаут соединения с сервером</string>
+    <string name="file_send_result">Результаты обновления</string>
+    <string name="file_send_success">Посылать успех</string>
+    <string name="updatePmSoft">Обновление системы питания</string>
+    <string name="updateApp">Обновление приложения</string>
+    <string name="signature_update">Обновление экрана для подписи</string>
+    <string name="takephoto">Смотрите на красную точку. Ждите</string>
+    <string name="process">Готово</string>
+    <string name="volume">Громкость</string>
+    <string name="log">Логотип</string>
+    <string-array name="set_array">
+        <item>Сеть</item>
+        <item>Освещение</item>
+        <item>Громкость</item>
+        <item>Язык</item>
+        <item>Логотип</item>
+        <item>WIFI</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+    <string name="put_finger">Приложите пальцы</string>
+</resources>

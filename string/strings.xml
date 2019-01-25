@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Biosignature Collection</string>
+    <string name="welcome">Welcome!</string>
+    <string name="server_address">IP:</string>
+    <string name="personal_information">Personal information</string>
+    <string name="shoot_photo">Shoot</string>
+    <string name="countdown_photo">CountDown</string>
+    <string name="top_bar_date_format">MM-yyyy-dd</string>
+    <string name="Back">Back</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="userinfo_comfire_tip">Подтвердите ваше фото,\n
+            кликнув по кнопке «Подтверждаю»</string>
+    <string name="fingerprint_quality_tip"> Fingerprint quality：</string>
+    <string name="reference_title">Operational Reference</string>
+    <string name="waiting_tip">Waiting for staff review</string>
+    <string name="photograph">Photograph</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="move_close_face">Please close your face to the screen</string>
+    <string name="move_away_face">Please keep your face away from the screen</string>
+    <string name="move_left_face"> Please move your face to the left</string>
+    <string name="move_right_face"> Please move your face to the right</string>
+    <string name="move_down_face"> Please move your face to the down</string>
+    <string name="move_up_face"> Please move your face to the up</string>
+    <string name="move_aim_face">Please aim the face in front of the lens</string>
+    <string name="select_photo_tip">You look good！\n Do you use this one?</string>
+    <string name="collection_completed">Collection Completed</string>
+    <string name="signature_successful">Collection Successful</string>
+    <string name="signature_fail">Collection Fail</string>
+    <string name="signature_begin">begin signature</string>
+    <string name="update">A new version of Application is available now, do you want to upgrade?</string>
+    <string name="cancle">Cancle</string>
+    <string name="fingerprint_title">Oтпечатки пальцев</string>
+    <string name="signature_title">Подпись</string>
+    <string name="connection_close">Connection Close</string>
+    <string name="connection_open">Open Connection With PC</string>
+    <string name="fingerprint_left_tip">Collection OK!</string>
+    <string name="fingerprint_right_tip">Collection OK!</string>
+    <string name="confirm_title">Подтверждение</string>
+    <string name="photo_tip">Постарайтесь оставаться  в пределах контура фигуры.  Смотрите на красную точку</string>
+    <string name="welcome_tip">Ожидает соединения с компьютором</string>
+    <string name="net_waiting">Ожидает соединения с компьютором</string>
+    <string name="net_lost">Соединение с компьютером разорвано</string>
+    <string name="net_connect">Соединение с компьютером установлено. Готов к сбору биометрической информации</string>
+    <string name="set">Settings</string>
+    <string name="light">Light</string>
+    <string name="confirm">Подтверждаю</string>
+    <string-array name="set_array">
+        <item>WIFI</item>
+        <item>Ethernet</item>
+        <item>Light</item>
+        <item>Volume</item>
+    </string-array>
+</resources>

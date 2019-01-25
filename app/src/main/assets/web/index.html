@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>流云网站</title>
+</head>
+<body>
+<script>
+if("WebSocket" in window){
+  console.log("支持");
+}
+    var ws = new WebSocket("ws://"+location.hostname+":9898");
+    ws.onopen = function(evt)
+
+{  console.log("open");
+  ws.send("hello");
+};
+
+ws.onmessage = function(evt)
+
+{
+  console.log(evt.data)
+  var reader=new FileReader();
+  reader.readAsText(evt.data,'utf-8');
+  reader.onload=function(e){
+     console.log(reader.result);
+  }
+};
+ws.onclose = function(evt)
+
+{
+  console.log("WebSocketClosed!");
+};
+
+ws.onerror = function(evt)
+
+{
+  console.log("WebSocketError!");
+};
+</script>
+<b>你好啊</b>
+</body>
+</html>

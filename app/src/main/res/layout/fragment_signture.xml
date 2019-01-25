@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/px_1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_460"
+        android:background="@drawable/scale_back">
+        <LinearLayout
+            android:id="@+id/re"
+            android:layout_width="524dp"
+            android:layout_height="294dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:orientation="vertical"
+            android:background="@mipmap/sig_bg">
+            <ImageView
+                android:id="@+id/showsignature_iv"
+                android:layout_width="464dp"
+                android:layout_height="234dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/show_message_tv"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/re"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:gravity="center_horizontal"
+            android:text="@string/signature_tip"
+            android:textColor="@color/white"
+            android:textSize="27sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white_gray"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tipTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="9dp"
+            android:textSize="80sp"
+            android:textColor="@color/greendark"
+            android:text="@string/process"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/signature" />
+    </RelativeLayout>
+</LinearLayout>

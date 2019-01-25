@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_welcome">
+    
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="434dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="135dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:layout_marginTop="58dp"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tipTv"
+        android:layout_width="516dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/welcome_tip"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="28sp"
+        android:textColor="@color/server_address"
+        android:background="@drawable/bg_welcome_tv"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/version_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp"
+            android:padding="20dp"
+            android:textColor="@color/server_address"
+            />
+        <TextView
+            android:id="@+id/tv_server_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_alignParentEnd="true"
+            android:textSize="14sp"
+            android:textColor="@color/server_address" />
+    </RelativeLayout>
+</LinearLayout>
